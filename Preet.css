@@ -83,6 +83,25 @@ body {
   margin-top: 1vw;
 }
 
+button:hover, .images img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .main-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .main-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
 
 /* Footer styling */
 footer {
@@ -100,9 +119,9 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  
-
+  overflow: hidden;
 }
+
 
 .footer-content h2 {
   font-size: 2rem;
@@ -183,7 +202,3 @@ footer {
   background-color: #ffffff;
   color: #121212;
 }
-
-
-
-
