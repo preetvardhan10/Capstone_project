@@ -110,7 +110,7 @@ footer {
 }
 
 .footer-background {
-  background-image:  url('https://s3-alpha-sig.figma.com/img/bd17/67ed/68555d52ebc2568a3edf4bf6e84ac469?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Vw6Dx83lDgLGJCDyqX1fazv7k9nRHkz0gqTK~FfOjKSYkfw5FeOxm4a2k1jC04H7mSQ-Lkhy4S~YzUWamsY4R5aWWLlNgn2oRxKnRFnTVDX9T5A6M6TR0MIQVF-gC4yOtUE-tiDIzEAuouK9rdutySRpdipA6nFtthsAtAD6-LX66-t3vL7KnSMIEjUqPM~QlSO2zXT2~VL-q8L1trChAB1RS2fidPviEhu1jZkcQng-BAZGOA7OxSmNcl4B1o~XChNz0yrkTnfZ6XUdyq8k88oLEvULREH6GNJNJqDYqfxMC6Bs-EjDLI73FZ59xp3J3xRoSrrOFMurMtFJ3fg4iA__');
+  background-image:  url(background.png);
   background-size: cover;
   background-position: center;
   padding: 50px 20px;
@@ -120,7 +120,14 @@ footer {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  
 }
+
+
+
+
+
+
 
 
 .footer-content h2 {
