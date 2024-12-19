@@ -174,11 +174,12 @@ footer {
   justify-content: center;
   gap: 20px;
   margin-bottom: 3vh;
+  margin-top: 1vh;
 }
 
 .social-icons a img {
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
 }
 
 .footer-bottom {
